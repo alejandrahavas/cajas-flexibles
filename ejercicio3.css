@@ -1,0 +1,35 @@
+.contenedor3{
+	background-color: white;
+	/*display: inline-flex;*/ 
+	display: flex;
+    border: solid black;
+    height: 100px;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: space-between;
+    font-family: 'Times New Roman';text-align: center; color: white;
+}
+
+
+.rojo{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	margin-right: 100px;
+	font-size: 15px;
+}
+.azul{
+	background-color:blue;
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	font-size: 15px;
+}
+.verde{
+	background-color:green;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	font-size: 15px;
+}
